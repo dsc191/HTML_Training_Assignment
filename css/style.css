@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto', sans-serif;
+     background: #FAFAFA;
+    }
+.frt-img{
+    border-radius: 50%;
+    border: 20px solid white;
+    width: 100%;
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+.logo{
+    margin-top: 105px;
+    width: 50%;
+}
+span{
+    color:#C8242F;
+    font-weight: 900;
+}
+.slogan{
+    margin-top: 20px;
+}
+.login-suggest{
+    margin-top: 30px;
+}
+.btn{
+background: #C8242F;
+border-radius: 23px;
+color: #FAFAFA;
+width: 138px;
+height: 45px;
+}
+.fonts{
+   color: #ADADAD ;
+   font-size: 15px;
+}
+#forgt-pwd{
+    margin-left: 15px;
+}

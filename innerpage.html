@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerPage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/innerpage.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- side-bar -->
+            <div class="col col-2">
+                <div class="row">
+                    <div class="side-bar">
+                        <img class="menu" src="./image/menu-bar.svg" alt="">
+                        <img class="h-logo" src="./image/header-logo.svg" alt="">
+                        <img class="favicon" src="./image/favicon.ico" alt="">
+                    </div>
+                </div>
+                <div class="flex-container link">
+                    <li> <a class="sidebar-eliment nav-link " href="#">
+                            <img src="./image/dashboard-default.svg" alt="" width="30" height="24"><small
+                                class="small">Dashboard</small>
+                        </a>
+                    </li>
+                    <li> <a class="sidebar-eliment nav-link analysis" href="#">
+                            <img class="analysis" src="./image/graph-active.svg" alt="" width="30" height="24"><small
+                                class="small">Analysis</small>
+                        </a>
+                    </li>
+                    <li> <a class="sidebar-eliment nav-link" href="#">
+                            <img src="./image/inbox-default.svg" alt="" width="30" height="24"><small
+                                class="small">Inbox</small>
+                        </a>
+                    </li>
+                    <li> <a class="sidebar-eliment nav-link" href="#">
+                            <img src="./image/clock-default.svg" alt="" width="30" height="24"><small
+                                class="small">History</small>
+                        </a>
+                    </li>
+                    <li> <a class="sidebar-eliment nav-link" href="#">
+                            <img src="./image/user-default.svg" alt="" width="30" height="24"><small
+                                class="small">User</small>
+                        </a>
+                    </li>
+                    <li> <a class="sidebar-eliment nav-link" href="#">
+                            <img src="./image/maintenance-default.svg" alt="" width="30" height="24"><small
+                                class="small">Maintenance</small>
+                        </a>
+                    </li>
+                    <li> <a class="sidebar-eliment nav-link" href="#">
+                            <img src="./image/setting-default.svg" alt="" width="30" height="24"><small
+                                class="small">Setting</small>
+                        </a>
+                    </li>
+
+                </div>
+            </div>
+            <!-- header & main content -->
+            <div class="col col-10">
+                <!-- header -->
+                <div class="flex-container">
+                    <nav class="navbar">
+                        <div class="leftside">
+                            <a class="search" href="#">
+                                <img src="./image/search-icon.svg" alt="" width="30" height="24"
+                                    class="d-inline-block align-text-top">search
+                            </a>
+                        </div>
+                        <div class="rightside">
+                            <div class="notification">
+                                <img class="notification" src="./image/notification-icon.svg" alt="">
+                            </div>
+                            <div class="user">
+                                <img class="profile" src="./image/profile.png" alt="">
+                                <p>John Deo</p>
+                                <img class="down" src="./image/downward-arrow.svg" alt="">
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <!-- main content -->
+                <div class="row-fluid main">
+                    <div class="heading">
+                        <h2>Analysis</h2>
+                    </div>
+                    <div class="form-group">
+                        <div class="title">
+                            <h5>One Column</h5>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <select name="Dropdown" class="form-control">
+                                <option value="Dropdown">Dropdown</option>
+                            </select>
+
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Multiple line"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="title">
+                            <h5>Two Column</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                            </div>
+                            <div class="col">
+                                <input class="form-control" id="formControlReadonly" type="text" value="johndeo"
+                                    aria-label="readonly input example" readonly />
+
+
+                            </div>
+                        </div>
+                        <div class="row r-2">
+                            <div class="col">
+                                <input type="password" class="form-control" placeholder="Password"
+                                    aria-label="password">
+                            </div>
+                            <div class="col">
+                                <select name="Dropdown" class="form-control">
+                                    <option value="Dropdown">Dropdown</option>
+                                </select>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="title">
+                            <h5>Three Column</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="focus" class="form-control" placeholder="focus" aria-label="Name">
+                            </div>
+
+                            <div class="col">
+                                <input type="password" class="form-control" value="password" placeholder="Password"
+                                    aria-label="password">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" value="johndoe" disabled>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <div class="title">
+                            <h5>Four Column</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" value="UI Designer" aria-label="Name">
+                                <small id="helper" class="form-text text-muted">Enter valid data</small>
+                            </div>
+
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                                <small id="helper" class="form-text text-muted">Enter your full name as per Id</small>
+                            </div>
+                            <div class="col">
+
+                                <input class="form-control" id="formControlReadonly" type="text" value="johndeo"
+                                    aria-label="readonly input example" readonly />
+
+
+                            </div>
+                            <div class="col">
+                                <select name="Dropdown" class="form-control">
+                                    <option value="Dropdown">Select</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+
+
+                        <div class="other">
+                            <div class="title">
+                                <h5>Other Design Elements</h5>
+                            </div>
+                            <p class="sub-heading">File Upload</p>
+
+                            <div class="upload">
+                                <button><img src="./image/cloud-upload-icon.svg" alt="">Upload</button>
+                                <p class="upload-status">No item selected</p>
+                            </div>
+
+                            <p class="sub-heading">Radio Button</p>
+
+                            <div class="radio">
+                                <div class="radio-1">
+                                    <input type="radio" id="rad" name="rad" value="Option1">
+                                    <label for="">Option 1</label>
+                                </div>
+                                <div class="radio-2">
+                                    <input type="radio" id="rad" name="rad" value="Option2" checked>
+                                    <label for="">Option 2</label>
+                                </div>
+                            </div>
+
+                            <p class="sub-heading">Checkbox</p>
+
+                            <div class="radio">
+                                <div class="radio-1">
+                                    <input type="checkbox" id="rad" name="rad" value="Option1">
+                                    <label for="">Option 1</label>
+                                </div>
+                                <div class="radio-2">
+                                    <input type="checkbox" id="rad" name="rad" value="Option2" checked>
+                                    <label for="">Option 2</label>
+                                </div>
+                            </div>
+
+                            <p class="sub-heading flex-container">Snackbar</p>
+                            <div class="flex-container">
+                                <div class="snackbar">
+                                    <div class="line-1">
+                                        <div class="snack-1">
+                                            <img class="snack-icon" src="./image/error-icon.svg" alt="">
+                                            <p class="error-msg">This is an error message</p>
+                                        </div>
+                                        <br>
+                                        <div class="snack-2">
+                                            <img class="snack-icon" src="./image/warning-icon.svg" alt="">
+                                            <p class="warn-msg">This is a warning message</p>
+                                        </div>
+                                    </div>
+                                    <div class="line-2">
+                                        <div class="snack-3">
+                                            <img class="snack-icon" src="./image/info-icon.svg" alt="">
+                                            <p class="info-msg">This is an information message</p>
+                                        </div>
+                                        <br>
+                                        <div class="snack-4">
+                                            <img class="snack-icon" src="./image/success-icon.svg" alt="">
+                                            <p class="success-msg">This is a success message</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <p class="sub-heading">Call to Action</p>
+
+                            <div class="buttons">
+                                <button class="btn-1">Primary</button>
+                                <button class="btn-2">Secondary</button>
+                            </div>
+
+                            <p class="sub-heading">Tabs</p>
+
+                            <div class="tab">
+                                <p>Tab 1</p>
+                                <p>Tab 2</p>
+                                <p>Tab 3</p>
+                            </div>
+                            <br>
+                            <p class="random-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+                                ipsa dolorem veritatis saepe. Animi laboriosam est aspernatur dolore eligendi repellat
+                                accusamus sit veniam illum consectetur. Esse debitis ad placeat adipisci. Sequi labore
+                                impedit repudiandae, tempore corrupti sunt dicta pariatur veritatis aperiam placeat,
+                                nulla eligendi. Omnis ipsum, soluta magnam dicta consectetur cupiditate accusamus modi
+                                sapiente sint eligendi voluptatibus quaerat labore laudantium, ad sunt placeat eius
+                                verit</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
